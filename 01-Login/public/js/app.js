@@ -126,3 +126,10 @@ window.onload = async () => {
 
   updateUI();
 };
+
+const updateUI = async () => {
+  const isAuthenticated = await auth0.isAuthenticated();
+
+  document.getElementById("btn-logout").disabled = !isAuthenticated;
+  document.getElementById("btn-login").disabled = isAuthenticated;
+};
