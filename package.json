@@ -1,0 +1,28 @@
+{
+  "name": "auth0-javascript-samples",
+  "version": "1.0.0",
+  "description": "This repository holds the quickstart samples using [auth0-spa-js](https://github.com/auth0/auth0-spa-js).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andersonriley/auth0-javascript-samples.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andersonriley/auth0-javascript-samples/issues"
+  },
+  "homepage": "https://github.com/andersonriley/auth0-javascript-samples#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-jwt": "^6.0.0",
+    "jwks-rsa": "^2.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
